@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+
     <style>
+        body {
+            background: url("C:\Users\rn823\OneDrive\Pictures\Saved Pictures\2024031014525317917_1710062659586.png");
+        }
         form {
-    position: relative;
+    position: absolute;
     width:260px;
     height: 400px;
     background:black;
+    backdrop-filter:blur(10px);
     margin: 30px 0 0 200px;
     border-radius: 3px;
+    top: 150px;
 }
 
 .hear {
@@ -244,9 +249,13 @@
     background-color: red;
     margin-left: 100px;
 }
+img{
+    z-index: -1;
+}
     </style>
 </head>
 <body>
+    <img src="C:\Users\rn823\OneDrive\Pictures\Saved Pictures\2024031014525317917_1710062659586.png" alt="rajesh" height="800">
     <div class="color"></div>
     <form>
         <div class="hear"><h1>sign in</h1></div>
